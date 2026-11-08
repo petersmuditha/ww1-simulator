@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WW1 Political Simulator — Game</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+  <!-- MUSICA DI SOTTOFONDO -->
+  <audio id="bg-music" loop>
+    <source src="dies.mp3" type="audio/mpeg">
+    Il tuo browser non supporta l'audio.
+  </audio>
+
+  <div class="game-header">
+    <div>
+      <h1 style="text-align:left; font-size:1.5rem;" id="game-title"></h1>
+      <p class="subtitle" style="text-align:left; margin:0;" id="game-subtitle"></p>
+    </div>
+    <div style="display:flex; gap:10px;">
+      <!-- PULSANTE MUSICA -->
+      <button class="btn" id="music-btn" onclick="toggleMusic()">🎵 Play Music</button>
+      <button class="btn" onclick="location.href='index.html'">Change Nation</button>
+    </div>
+  </div>
+
+  <!-- STATISTICHE -->
+  <div class="stats" id="stats"></div>
+
+  <!-- SETUP CHIAVE API (BYOK) -->
+  <div class="panel" style="border-left: 3px solid #d4af37; margin-bottom: 1.5rem;">
+    <h2>🔑 API Key Setup</h2>
+    <p style="color:#999; font-size:0.9rem; margin-bottom:10px;">Per giocare, inserisci la tua chiave API di Groq (la puoi ottenere gratuitamente su <a href="https://console.groq.com/keys" target="_blank" style="color:#d4af37;">console.groq.com</a>).</p>
+    <div style="display:flex; gap:10px;">
+      <input type="password" id="api-key-input" placeholder="gsk_..." style="flex:1; padding:10px; border-radius:4px; border:1px solid #555; background:#1a1a1a; color:white;">
+      <button class="btn" onclick="saveApiKey()">Salva Chiave</button>
+    </div>
+    <p id="api-key-status" style="color:#4caf50; font-size:0.9rem; margin-top:5px; display:none;">✔ Chiave salvata!</p>
+  </div>
+
+  <!-- SEZIONE EVENTI STORICI (JSON / AI) -->
+  <div class="panel" id="events-panel">
+    <h2 id="decisions-title">Decisions of 1914</h2>
+    <div id="questions-container"></div>
+  </div>
+
+  <!-- SEZIONE AZIONI LIBERE (AI) -->
+  <div class="panel">
+    <h2>Orders to the Government (Free Action)</h2>
+    <p style="color:#999; font-size:0.9rem; margin-bottom:10px;">Write your move in natural language. The AI will react.</p>
+    <div style="display:flex; gap:10px;">
+      <input type="text" id="ai-input" placeholder="Write your move..." style="flex:1; padding:10px; border-radius:4px; border:1px solid #555; background:#1a1a1a; color:white;">
+      <button class="btn" onclick="handleFreeAction()">Send</button>
+    </div>
+    <div id="ai-response" style="margin-top:15px; padding:15px; background:#1f1f1f; border-left:3px solid #d4af37; display:none;"></div>
+    <div id="future-consequences" style="margin-top:15px; padding:15px; background:#1a1a1a; border-left:3px solid #ff9800; display:none;"></div>
+  </div>
+
+  <!-- SCRIPT DEL GIOCO -->
+  <script src="js/game.js"></script>
+
+  <!-- SCRIPT PER LA MUSICA -->
+  <script>
+    const music = document.getElementById('bg-music');
+    const musicBtn = document.getElementById('music-btn');
+
+    function toggleMusic() {
+      if (music.paused) {
+        music.volume = 0.3; // Volume al 30%
+        music.play();
+        musicBtn.textContent = "🔇 Pause Music";
+      } else {
+        music.pause();
+        musicBtn.textContent = "🎵 Play Music";
+      }
+    }
+
+    // Fa partire la musica al primo click in assoluto sulla pagina
+    document.addEventListener('click', function startMusic() {
+      if (music.paused) {
+        music.volume = 0.3;
+        music.play().then(() => {
+            musicBtn.textContent = "🔇 Pause Music";
+        }).catch(e => console.log("Autoplay bloccato dal browser."));
+      }
+    }, { once: true });
+  </script>
+</body>
+</html>

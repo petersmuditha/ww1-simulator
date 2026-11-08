@@ -1,0 +1,174 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background-color: #1a1a1a;
+  /* ECCO LA CORREZIONE: ../ per uscire dalla cartella css */
+  background-image: url('../img/map1914.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #e8e2d0;
+  min-height: 100vh;
+  padding: 2rem;
+  position: relative;
+}
+
+/* Questo scurisce l'immagine di sfondo per far leggere bene il testo */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(20, 20, 20, 0.85); /* Regola l'opacità (0.85 è molto scuro) */
+  z-index: -1;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.2rem;
+  letter-spacing: 2px;
+  margin-bottom: 0.5rem;
+  color: #d4af37;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  text-align: center;
+  color: #999;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+/* Griglia paesi */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.card {
+  background: #262626;
+  border: 1px solid #3a3a3a;
+  border-radius: 6px;
+  padding: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  border-color: #d4af37;
+  transform: translateY(-3px);
+  background: #2e2e2e;
+}
+
+.card .flag { font-size: 2rem; margin-bottom: 0.5rem; }
+.card h2 { font-size: 1.2rem; color: #d4af37; margin-bottom: 0.4rem; }
+.card p { font-size: 0.85rem; color: #aaa; line-height: 1.4; }
+
+/* Fazioni */
+.faction-card {
+  background: #262626;
+  border: 1px solid #3a3a3a;
+  border-radius: 6px;
+  padding: 1.2rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.faction-card:hover {
+  border-color: #d4af37;
+  background: #2e2e2e;
+}
+
+.faction-card h3 { color: #d4af37; margin-bottom: 0.3rem; }
+
+.bar {
+  background: #3a3a3a;
+  height: 8px;
+  border-radius: 4px;
+  margin-top: 0.4rem;
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+  background: #d4af37;
+  transition: width 0.3s;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: #444;
+  color: #ccc;
+  margin-right: 6px;
+  margin-top: 6px;
+}
+
+/* BOTTONI GIALli CON TESTO NERO */
+.btn {
+  display: inline-block;
+  background: #d4af37; /* Giallo Oro */
+  color: #000000;      /* Testo Nero */
+  border: 1px solid #b5952f;
+  padding: 0.7rem 1.5rem;
+  border-radius: 4px;
+  font-family: inherit;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all 0.2s ease;
+}
+
+.btn:hover { 
+  background: #fce374; /* Giallo più chiaro quando passi il mouse */
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.4); /* Bagliore leggero */
+}
+.btn:disabled {
+  background: #555;
+  color: #888;
+  border-color: #444;
+  cursor: not-allowed;
+}
+
+/* Game screen */
+.game-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #d4af37;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.stat {
+  background: #262626;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #3a3a3a;
+}
+
+.stat .label { font-size: 0.75rem; color: #999; text-transform: uppercase; letter-spacing: 1px; }
+.stat .value { font-size: 1.5rem; color: #d4af37; font-weight: bold; margin-top: 0.3rem; }
+
+.panel {
+  background: #262626;
+  border: 1px solid #3a3a3a;
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.panel h2 { color: #d4af37; margin-bottom: 1rem; font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; }

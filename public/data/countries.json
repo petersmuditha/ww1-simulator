@@ -1,0 +1,290 @@
+{
+  "GER": {
+    "name": "German Empire",
+    "regime": "Constitutional Monarchy",
+    "headOfState": "Kaiser Wilhelm II",
+    "factions": [
+      { "id": "spd", "name": "Social Democratic Party (SPD)", "ideology": "Reformist socialism", "initialSupport": 35, "warPosition": "War credits, Burgfrieden", "source": "1914-1918-Online: Germany" },
+      { "id": "zentrum", "name": "Centre Party (Zentrum)", "ideology": "Political Catholicism", "initialSupport": 20, "warPosition": "Defensive war", "source": "1914-1918-Online: Germany" },
+      { "id": "conservatives", "name": "German Conservative Party", "ideology": "Monarchist nationalism", "initialSupport": 15, "warPosition": "Annexationist", "source": "1914-1918-Online: Germany" },
+      { "id": "national_liberals", "name": "National Liberal Party", "ideology": "National liberalism", "initialSupport": 14, "warPosition": "Interventionist", "source": "1914-1918-Online: Germany" },
+      { "id": "progressives", "name": "Progressive People's Party (FVP)", "ideology": "Social liberalism", "initialSupport": 10, "warPosition": "Conditional support, parliamentary reforms", "source": "1914-1918-Online: Germany" },
+      { "id": "reichspartei", "name": "Reich Party (Reichspartei)", "ideology": "Liberal conservatism, militarism", "initialSupport": 4, "warPosition": "Extreme annexationist", "source": "1914-1918-Online: Germany" },
+      { "id": "spartacus", "name": "Spartacus League (SPD current)", "ideology": "Revolutionary Marxism", "initialSupport": 2, "warPosition": "Anti-war, revolutionary defeatism", "source": "1914-1918-Online: Germany" }
+    ],
+    "resources": { "manpower": 4500000, "industry": 85, "treasury": 2500, "stability": 60 }
+  },
+  "FRA": {
+    "name": "French Republic",
+    "regime": "Democratic Republic (universal male suffrage)",
+    "headOfState": "President Raymond Poincaré",
+    "factions": [
+      { "id": "radical_socialist", "name": "Radical-Socialist Party (PRRRS)", "ideology": "Secular radicalism", "initialSupport": 28, "warPosition": "Union Sacrée, republican defense", "source": "1914 French legislative election" },
+      { "id": "sfio", "name": "SFIO (French Section of the Workers' International)", "ideology": "Socialism", "initialSupport": 17, "warPosition": "Union Sacrée (Jaurès assassinated)", "source": "1914 French legislative election" },
+      { "id": "republican_federation", "name": "Republican Federation", "ideology": "Republican conservatism", "initialSupport": 18, "warPosition": "Defensive nationalism", "source": "1914 French legislative election" },
+      { "id": "independent_radicals", "name": "Independent Radicals (Clemenceau)", "ideology": "Intransigent radicalism", "initialSupport": 13, "warPosition": "Intransigent interventionist", "source": "1914 French legislative election" },
+      { "id": "republican_socialist", "name": "Republican-Socialist Party", "ideology": "Reformist socialism", "initialSupport": 8, "warPosition": "Union Sacrée", "source": "1914 French legislative election" },
+      { "id": "action_francaise", "name": "Action Française", "ideology": "Monarchist nationalism, revanchism", "initialSupport": 5, "warPosition": "Total war, anti-German", "source": "1914-1918-Online: France" }
+    ],
+    "resources": { "manpower": 3800000, "industry": 70, "treasury": 1800, "stability": 55 }
+  },
+  "GBR": {
+    "name": "United Kingdom of Great Britain and Ireland",
+    "regime": "Parliamentary Monarchy",
+    "headOfState": "King George V",
+    "factions": [
+      { "id": "liberals", "name": "Liberal Party", "ideology": "Reformist liberalism", "initialSupport": 38, "warPosition": "Interventionist after invasion of Belgium", "source": "1914-1918-Online: Great Britain" },
+      { "id": "conservatives", "name": "Conservative Party (Unionist)", "ideology": "Unionist conservatism", "initialSupport": 28, "warPosition": "Interventionist", "source": "1914-1918-Online: Great Britain" },
+      { "id": "labour", "name": "Labour Party", "ideology": "Reformist socialism", "initialSupport": 13, "warPosition": "Patriotic support (later divided)", "source": "1914-1918-Online: Great Britain" },
+      { "id": "irish_parliamentary", "name": "Irish Parliamentary Party", "ideology": "Irish nationalism", "initialSupport": 10, "warPosition": "Support for war (Home Rule suspended)", "source": "1914-1918-Online: Great Britain" },
+      { "id": "ulster_unionists", "name": "Ulster Unionists", "ideology": "Unionism, British loyalism", "initialSupport": 8, "warPosition": "Imperial loyalism, interventionist", "source": "1914-1918-Online: Great Britain" },
+      { "id": "ilp", "name": "Independent Labour Party (ILP)", "ideology": "Pacifist socialism", "initialSupport": 3, "warPosition": "Anti-war", "source": "1914-1918-Online: Great Britain" }
+    ],
+    "resources": { "manpower": 1200000, "industry": 95, "treasury": 3000, "stability": 65 }
+  },
+  "ITA": {
+    "name": "Kingdom of Italy",
+    "regime": "Parliamentary Monarchy (limited democracy)",
+    "headOfState": "King Victor Emmanuel III",
+    "factions": [
+      { "id": "liberals", "name": "Liberals (Giolitti/Salandra)", "ideology": "Conservative liberalism", "initialSupport": 35, "warPosition": "Neutralists, then interventionists (Salandra)", "source": "1914-1918-Online: Italy" },
+      { "id": "psi", "name": "Italian Socialist Party (PSI)", "ideology": "Maximalist socialism", "initialSupport": 22, "warPosition": "Intransigent neutralists", "source": "1914-1918-Online: Italy" },
+      { "id": "catholics", "name": "Catholics (Catholic Electoral Union)", "ideology": "Social Catholicism", "initialSupport": 18, "warPosition": "Neutralists (Pope Benedict XV's peace)", "source": "1914-1918-Online: Italy" },
+      { "id": "nationalists", "name": "Italian Nationalist Association", "ideology": "Radical nationalism", "initialSupport": 10, "warPosition": "Democratic interventionists", "source": "1914-1918-Online: Italy" },
+      { "id": "republicans_radicals", "name": "Republican and Radical Interventionists", "ideology": "Mazzinian democracy, irredentism", "initialSupport": 8, "warPosition": "Democratic interventionists", "source": "1914-1918-Online: Italy" },
+      { "id": "syndicalists", "name": "Revolutionary Syndicalists (USI)", "ideology": "Revolutionary syndicalism", "initialSupport": 7, "warPosition": "Revolutionary interventionists", "source": "1914-1918-Online: Italy" }
+    ],
+    "resources": { "manpower": 1500000, "industry": 40, "treasury": 800, "stability": 55 }
+  },
+  "AUT": {
+    "name": "Austrian Empire (Cisleithania)",
+    "regime": "Constitutional Monarchy (parliament suspended since 1914)",
+    "headOfState": "Emperor Franz Joseph I",
+    "factions": [
+      { "id": "christian_socials", "name": "Christian Social Party", "ideology": "Conservative social Catholicism", "initialSupport": 28, "warPosition": "Support for the war", "source": "1914-1918-Online: Austria" },
+      { "id": "german_nationals", "name": "Deutscher Nationalverband", "ideology": "Austro-German nationalism", "initialSupport": 22, "warPosition": "Radical interventionist", "source": "1914-1918-Online: Austria" },
+      { "id": "social_democrats", "name": "Austrian Social Democracy", "ideology": "Reformist socialism", "initialSupport": 18, "warPosition": "Critical support for defensive war", "source": "1914-1918-Online: Austria" },
+      { "id": "czech_nationals", "name": "Czech National Parties", "ideology": "Czech nationalism", "initialSupport": 13, "warPosition": "Formal loyalty, growing opposition", "source": "1914-1918-Online: Austria" },
+      { "id": "polish_parties", "name": "Polish Parties of Galicia", "ideology": "Polish nationalism, conservatism", "initialSupport": 10, "warPosition": "Loyalty to Austria against Russia", "source": "1914-1918-Online: Austria" },
+      { "id": "south_slav_parties", "name": "Slovene and Croat Parties (Cisleithania)", "ideology": "South Slav nationalism, trialism", "initialSupport": 9, "warPosition": "Oscillating between loyalty and Yugoslav irredentism", "source": "1914-1918-Online: Austria" }
+    ],
+    "resources": { "manpower": 3000000, "industry": 60, "treasury": 1200, "stability": 45 }
+  },
+  "HUN": {
+    "name": "Kingdom of Hungary (Transleithania)",
+    "regime": "Constitutional Monarchy (census suffrage)",
+    "headOfState": "Emperor-King Franz Joseph I",
+    "factions": [
+      { "id": "national_labour", "name": "National Labour Party", "ideology": "Liberal conservatism", "initialSupport": 38, "warPosition": "Support for Tisza's government", "source": "1914-1918-Online: Hungary" },
+      { "id": "independence_party", "name": "Independence Party (1848)", "ideology": "Magyar nationalism", "initialSupport": 18, "warPosition": "Constitutional opposition, then truce", "source": "1914-1918-Online: Hungary" },
+      { "id": "social_democrats_hun", "name": "Hungarian Social Democracy", "ideology": "Socialism", "initialSupport": 12, "warPosition": "Extra-parliamentary opposition", "source": "1914-1918-Online: Hungary" },
+      { "id": "catholic_people", "name": "Catholic People's Party", "ideology": "Social Catholicism", "initialSupport": 13, "warPosition": "Support for the war", "source": "1914-1918-Online: Hungary" },
+      { "id": "radical_party_hun", "name": "Bourgeois Radical Party", "ideology": "Progressive radicalism", "initialSupport": 5, "warPosition": "Democratic opposition", "source": "1914-1918-Online: Hungary" },
+      { "id": "nationalities_hun", "name": "Minority Parties (Romanians, Serbs, Slovaks)", "ideology": "Nationalism, self-determination", "initialSupport": 14, "warPosition": "Opposition to Magyarization, hope for Hungary's defeat", "source": "1914-1918-Online: Hungary" }
+    ],
+    "resources": { "manpower": 2000000, "industry": 35, "treasury": 700, "stability": 50 }
+  },
+  "RUS": {
+    "name": "Russian Empire",
+    "regime": "Tsarist Autocracy (Duma with limited powers)",
+    "headOfState": "Tsar Nicholas II",
+    "factions": [
+      { "id": "octobrists", "name": "Octobrists (Union of 17 October)", "ideology": "Moderate liberalism", "initialSupport": 22, "warPosition": "Patriotic support", "source": "1914-1918-Online: Russian Empire" },
+      { "id": "kadets", "name": "Constitutional Democratic Party (Kadets)", "ideology": "Radical liberalism", "initialSupport": 18, "warPosition": "Conditional support (Progressive Bloc from 1915)", "source": "1914-1918-Online: Russian Empire" },
+      { "id": "sr", "name": "Socialist Revolutionary Party (SR)", "ideology": "Agrarian socialism", "initialSupport": 15, "warPosition": "Revolutionary defensism", "source": "1914-1918-Online: Russian Empire" },
+      { "id": "bolsheviks", "name": "Bolshevik Faction (RSDLP)", "ideology": "Revolutionary Marxism", "initialSupport": 8, "warPosition": "Revolutionary defeatism", "source": "1914-1918-Online: Russian Empire" },
+      { "id": "mensheviks", "name": "Menshevik Faction (RSDLP)", "ideology": "Reformist Marxism", "initialSupport": 8, "warPosition": "Revolutionary defensism (left internationalist wing)", "source": "1914-1918-Online: Russian Empire" },
+      { "id": "rightists", "name": "Nationalist Right", "ideology": "Orthodox nationalism", "initialSupport": 12, "warPosition": "Unconditional support for the Tsar", "source": "1914-1918-Online: Russian Empire" },
+      { "id": "black_hundreds", "name": "Black Hundreds", "ideology": "Reactionary monarchism, ultranationalism", "initialSupport": 7, "warPosition": "War to the bitter end, pure autocracy", "source": "1914-1918-Online: Russian Empire" }
+    ],
+    "resources": { "manpower": 6000000, "industry": 50, "treasury": 1500, "stability": 40 }
+  },
+  "OTT": {
+    "name": "Ottoman Empire",
+    "regime": "Constitutional Monarchy (CUP one-party government)",
+    "headOfState": "Sultan Mehmed V",
+    "factions": [
+      { "id": "cup", "name": "Committee of Union and Progress (CUP)", "ideology": "Turkish nationalism, modernization", "initialSupport": 50, "warPosition": "Interventionist (alliance with Germany)", "source": "1914-1918-Online: Ottoman Empire" },
+      { "id": "freedom_accord", "name": "Freedom and Accord Party", "ideology": "Ottoman liberalism", "initialSupport": 12, "warPosition": "Neutralist (exiled)", "source": "1914 Ottoman general election" },
+      { "id": "armenian_parties", "name": "Armenian Parties (Dashnak, Hnchak, Ramgavar)", "ideology": "Armenian nationalism", "initialSupport": 10, "warPosition": "Conditional loyalty, growing fears", "source": "1914-1918-Online: Ottoman Empire" },
+      { "id": "arab_nationalists", "name": "Arab Nationalists (Al-Fatat, Al-Ahd)", "ideology": "Arab nationalism, decentralization", "initialSupport": 8, "warPosition": "Opposition to Turkish centralism, contacts with Entente", "source": "1914-1918-Online: Ottoman Empire" }
+    ],
+    "resources": { "manpower": 2500000, "industry": 25, "treasury": 600, "stability": 45 }
+  },
+  "SRB": {
+    "name": "Kingdom of Serbia",
+    "regime": "Parliamentary Monarchy",
+    "headOfState": "King Peter I",
+    "factions": [
+      { "id": "radical_party", "name": "People's Radical Party", "ideology": "Nationalist radicalism", "initialSupport": 40, "warPosition": "National defense, Yugoslav expansionism", "source": "Balkan states 1914" },
+      { "id": "independent_radicals", "name": "Independent Radical Party", "ideology": "Progressive radicalism", "initialSupport": 18, "warPosition": "Support for the war", "source": "Balkan states 1914" },
+      { "id": "democratic_party", "name": "Democratic Party", "ideology": "Liberalism", "initialSupport": 15, "warPosition": "Support for the war", "source": "Balkan states 1914" },
+      { "id": "social_democrats_srb", "name": "Serbian Social Democracy", "ideology": "Socialism", "initialSupport": 8, "warPosition": "Opposition to the war (minority)", "source": "Balkan states 1914" },
+      { "id": "black_hand", "name": "Black Hand (Unification or Death)", "ideology": "Ultra-radical nationalism, military secret society", "initialSupport": 12, "warPosition": "War for Greater Serbia, shadow power", "source": "1914-1918-Online: Serbia" }
+    ],
+    "resources": { "manpower": 700000, "industry": 15, "treasury": 300, "stability": 55 }
+  },
+  "ROU": {
+    "name": "Kingdom of Romania",
+    "regime": "Constitutional Monarchy",
+    "headOfState": "King Ferdinand I (since 1914)",
+    "factions": [
+      { "id": "national_liberals_rou", "name": "National Liberal Party (PNL)", "ideology": "Nationalist liberalism", "initialSupport": 38, "warPosition": "Armed neutrality, then intervention with Entente (1916)", "source": "Balkan states 1914" },
+      { "id": "conservatives_rou", "name": "Conservative Party", "ideology": "Conservatism", "initialSupport": 20, "warPosition": "Pro-German, neutralist", "source": "Balkan states 1914" },
+      { "id": "conservative_democrats", "name": "Conservative-Democratic Party", "ideology": "Reformist conservatism", "initialSupport": 10, "warPosition": "Interventionist with the Entente", "source": "Balkan states 1914" },
+      { "id": "peasant_party", "name": "National Peasant Party", "ideology": "Agrarianism", "initialSupport": 15, "warPosition": "Neutralist", "source": "Balkan states 1914" },
+      { "id": "pro_german_conservatives", "name": "Pro-German Conservatives (Marghiloman)", "ideology": "Conservatism, Germanophilia", "initialSupport": 12, "warPosition": "Alliance with Central Powers", "source": "1914-1918-Online: Romania" }
+    ],
+    "resources": { "manpower": 900000, "industry": 20, "treasury": 400, "stability": 50 }
+  },
+  "BUL": {
+    "name": "Kingdom of Bulgaria",
+    "regime": "Constitutional Monarchy",
+    "headOfState": "Tsar Ferdinand I",
+    "factions": [
+      { "id": "liberals_bul", "name": "Liberal Party (Radoslavov)", "ideology": "Pro-German liberalism", "initialSupport": 32, "warPosition": "Interventionist with Central Powers", "source": "1914-1918-Online: South East Europe" },
+      { "id": "agrarian_union", "name": "Bulgarian Agrarian National Union (BZNS)", "ideology": "Agrarianism", "initialSupport": 22, "warPosition": "Opposition to the war (Stamboliyski)", "source": "1914-1918-Online: South East Europe" },
+      { "id": "social_democrats_bul", "name": "Bulgarian Social Democracy (Narrow Socialists)", "ideology": "Revolutionary socialism", "initialSupport": 12, "warPosition": "Opposition to the war", "source": "1914-1918-Online: South East Europe" },
+      { "id": "democratic_party_bul", "name": "Democratic Party (Malinov)", "ideology": "Moderate liberalism", "initialSupport": 18, "warPosition": "Pro-Entente, neutralist", "source": "1914-1918-Online: South East Europe" },
+      { "id": "broad_socialists", "name": "Broad Socialists (Obshtari)", "ideology": "Reformist socialism", "initialSupport": 8, "warPosition": "National defense, nuanced positions", "source": "1914-1918-Online: South East Europe" }
+    ],
+    "resources": { "manpower": 800000, "industry": 18, "treasury": 350, "stability": 48 }
+  },
+  "GRE": {
+    "name": "Kingdom of Greece",
+    "regime": "Parliamentary Monarchy (severe institutional crisis)",
+    "headOfState": "King Constantine I",
+    "factions": [
+      { "id": "venizelists", "name": "Liberals (Venizelos)", "ideology": "Nationalist liberalism (Megali Idea)", "initialSupport": 38, "warPosition": "Interventionist with the Entente", "source": "Balkan states 1914" },
+      { "id": "royalists", "name": "Royalists", "ideology": "Pro-German conservatism", "initialSupport": 32, "warPosition": "Neutralists (Constantine, Germanophile)", "source": "Balkan states 1914" },
+      { "id": "socialists_gre", "name": "Greek Socialists (SEKE)", "ideology": "Socialism", "initialSupport": 10, "warPosition": "Neutralists", "source": "Balkan states 1914" },
+      { "id": "nationalist_party_gre", "name": "Nationalist Party (Gounaris)", "ideology": "Conservative nationalism", "initialSupport": 18, "warPosition": "Neutralist, anti-Venizelist", "source": "1914-1918-Online: Greece" }
+    ],
+    "resources": { "manpower": 600000, "industry": 15, "treasury": 300, "stability": 35 }
+  },
+  "MNE": {
+    "name": "Kingdom of Montenegro",
+    "regime": "Constitutional Monarchy",
+    "headOfState": "King Nicholas I",
+    "factions": [
+      { "id": "court_party", "name": "Court Party (pro-royal)", "ideology": "Conservative monarchism", "initialSupport": 45, "warPosition": "War for Serbian unification", "source": "Balkan states 1914" },
+      { "id": "people_party", "name": "People's Party (Klubasi)", "ideology": "Unionist nationalism", "initialSupport": 28, "warPosition": "Support for the war", "source": "Balkan states 1914" },
+      { "id": "true_people_party", "name": "True People's Party (Pravasi)", "ideology": "Conservatism, democratization", "initialSupport": 22, "warPosition": "Internal opposition, Serbian-Montenegrin unity", "source": "1914-1918-Online: Montenegro" }
+    ],
+    "resources": { "manpower": 50000, "industry": 5, "treasury": 50, "stability": 60 }
+  },
+  "ALB": {
+    "name": "Principality of Albania",
+    "regime": "Principality (fragile state, foreign occupation)",
+    "headOfState": "Prince William of Wied (fled in September 1914)",
+    "factions": [
+      { "id": "beys", "name": "Large Landowners (Beys)", "ideology": "Feudal conservatism", "initialSupport": 25, "warPosition": "Oscillating, defense of local privileges", "source": "1914-1918-Online: Albania" },
+      { "id": "nationalists_alb", "name": "Albanian Nationalists", "ideology": "Nationalism", "initialSupport": 20, "warPosition": "Independence, distrust of everyone", "source": "1914-1918-Online: Albania" },
+      { "id": "essad_pasha", "name": "Essad Pasha Toptani's Faction", "ideology": "Political opportunism, pro-Serbian/Italian", "initialSupport": 18, "warPosition": "Oscillating, seeks alliances with Italy and Serbia", "source": "1914-1918-Online: Albania" },
+      { "id": "gheg_chiefs", "name": "Northern Clan Chiefs (Ghegs)", "ideology": "Tribal particularism, conservatism", "initialSupport": 15, "warPosition": "Defense of local autonomy, variable alliances (e.g., with Austria)", "source": "1914-1918-Online: Albania" },
+      { "id": "tosk_notables", "name": "Southern Notables (Tosks)", "ideology": "Moderate nationalism, reformism", "initialSupport": 10, "warPosition": "Seeking a strong central government, Greek/Italian influence", "source": "1914-1918-Online: Albania" },
+      { "id": "pro_austrian", "name": "Pro-Austrian and Pro-Bulgarian Factions", "ideology": "Conservatism, alliance with Central Powers", "initialSupport": 12, "warPosition": "Accept Vienna's protection in exchange for autonomy", "source": "1914-1918-Online: Albania" },
+      { "id": "pro_italian", "name": "Pro-Italian Factions", "ideology": "Moderate nationalism, pro-Italian", "initialSupport": 10, "warPosition": "Italian protectorate against Greek claims", "source": "1914-1918-Online: Albania" },
+      { "id": "greek_minority", "name": "Greek Minorities (Northern Epirus)", "ideology": "Greek irredentism", "initialSupport": 8, "warPosition": "Annexation of southern Albania to Greece", "source": "1914-1918-Online: Albania" }
+    ],
+    "resources": { "manpower": 30000, "industry": 3, "treasury": 20, "stability": 25 }
+  },
+  "BEL": {
+    "name": "Kingdom of Belgium",
+    "regime": "Parliamentary Monarchy (neutral, occupied by Germany)",
+    "headOfState": "King Albert I",
+    "factions": [
+      { "id": "catholics_bel", "name": "Catholic Party", "ideology": "Social Catholicism", "initialSupport": 38, "warPosition": "Resistance to occupation", "source": "1914-1918-Online: Belgium" },
+      { "id": "liberals_bel", "name": "Liberal Party", "ideology": "Liberalism", "initialSupport": 22, "warPosition": "Resistance", "source": "1914-1918-Online: Belgium" },
+      { "id": "socialists_bel", "name": "Belgian Labour Party (POB)", "ideology": "Socialism", "initialSupport": 22, "warPosition": "Resistance (clandestine)", "source": "1914-1918-Online: Belgium" },
+      { "id": "flemish_movement", "name": "Flemish Nationalist Movement (Frontbeweging)", "ideology": "Flemish nationalism", "initialSupport": 8, "warPosition": "Developed in the trenches, linguistic demands", "source": "1914-1918-Online: Belgium" }
+    ],
+    "resources": { "manpower": 300000, "industry": 45, "treasury": 200, "stability": 30 }
+  },
+  "NLD": {
+    "name": "Kingdom of the Netherlands",
+    "regime": "Parliamentary Monarchy (neutral)",
+    "headOfState": "Queen Wilhelmina",
+    "factions": [
+      { "id": "liberals_nld", "name": "Liberal Union", "ideology": "Liberalism", "initialSupport": 28, "warPosition": "Strict neutrality", "source": "1914-1918-Online: Netherlands" },
+      { "id": "confessional", "name": "Confessional Parties (ARP, CHU)", "ideology": "Social Christianity", "initialSupport": 30, "warPosition": "Neutrality", "source": "1914-1918-Online: Netherlands" },
+      { "id": "social_democrats_nld", "name": "SDAP (Social Democracy)", "ideology": "Reformist socialism", "initialSupport": 18, "warPosition": "Neutrality, opposition to war", "source": "1914-1918-Online: Netherlands" },
+      { "id": "catholic_league", "name": "Roman Catholic State Party (RKSP)", "ideology": "Political Catholicism", "initialSupport": 20, "warPosition": "Neutrality, Catholic pillar", "source": "1914-1918-Online: Netherlands" }
+    ],
+    "resources": { "manpower": 400000, "industry": 55, "treasury": 500, "stability": 65 }
+  },
+  "CHE": {
+    "name": "Swiss Confederation",
+    "regime": "Federal Republic (neutral)",
+    "headOfState": "President of the Confederation (annual term)",
+    "factions": [
+      { "id": "radicals_che", "name": "Radical Democratic Party", "ideology": "Liberalism", "initialSupport": 38, "warPosition": "Armed neutrality", "source": "1914-1918-Online: Switzerland" },
+      { "id": "catholics_che", "name": "Catholic Conservative Party", "ideology": "Social Catholicism", "initialSupport": 22, "warPosition": "Neutrality", "source": "1914-1918-Online: Switzerland" },
+      { "id": "social_democrats_che", "name": "Social Democratic Party", "ideology": "Socialism", "initialSupport": 18, "warPosition": "Neutrality, pacifism", "source": "1914-1918-Online: Switzerland" },
+      { "id": "peasant_party_che", "name": "Party of Farmers, Traders and Independents (BGB)", "ideology": "Agrarianism, rural conservatism", "initialSupport": 12, "warPosition": "Defense of neutrality and food sovereignty", "source": "1914-1918-Online: Switzerland" }
+    ],
+    "resources": { "manpower": 200000, "industry": 35, "treasury": 400, "stability": 70 }
+  },
+  "ESP": {
+    "name": "Kingdom of Spain",
+    "regime": "Constitutional Monarchy (Turnismo system in crisis)",
+    "headOfState": "King Alfonso XIII",
+    "factions": [
+      { "id": "liberals_esp", "name": "Liberal Party", "ideology": "Dynastic liberalism", "initialSupport": 28, "warPosition": "Neutrality", "source": "1914-1918-Online: Spain" },
+      { "id": "conservatives_esp", "name": "Conservative Party", "ideology": "Dynastic conservatism", "initialSupport": 28, "warPosition": "Neutrality", "source": "1914-1918-Online: Spain" },
+      { "id": "republicans_esp", "name": "Republican Parties", "ideology": "Republicanism", "initialSupport": 12, "warPosition": "Neutrality, opposition to the monarchy", "source": "1914-1918-Online: Spain" },
+      { "id": "socialists_esp", "name": "PSOE", "ideology": "Socialism", "initialSupport": 8, "warPosition": "Neutrality, anti-war", "source": "1914-1918-Online: Spain" },
+      { "id": "carlists", "name": "Carlists (Traditionalist Communion)", "ideology": "Traditionalist Catholicism, absolute monarchy", "initialSupport": 10, "warPosition": "Pro-German, anti-liberal", "source": "1914-1918-Online: Spain" },
+      { "id": "catalan_nationalists", "name": "Catalan Nationalists (Regionalist League)", "ideology": "Catalan nationalism, conservatism", "initialSupport": 14, "warPosition": "Neutrality, regional autonomy", "source": "1914-1918-Online: Spain" }
+    ],
+    "resources": { "manpower": 800000, "industry": 30, "treasury": 450, "stability": 40 }
+  },
+  "PRT": {
+    "name": "Portuguese Republic",
+    "regime": "Parliamentary Republic (unstable)",
+    "headOfState": "President Manuel de Arriaga",
+    "factions": [
+      { "id": "democratic_party", "name": "Democratic Party", "ideology": "Radical Republicanism", "initialSupport": 32, "warPosition": "Interventionist with the Entente (1916)", "source": "1914-1918-Online: Portugal" },
+      { "id": "republican_evolutionists", "name": "Evolutionist Republican Party", "ideology": "Moderate Republicanism", "initialSupport": 18, "warPosition": "Neutralist", "source": "1914-1918-Online: Portugal" },
+      { "id": "socialists_prt", "name": "Portuguese Socialist Party", "ideology": "Socialism", "initialSupport": 10, "warPosition": "Anti-war", "source": "1914-1918-Online: Portugal" },
+      { "id": "unionist_party", "name": "Unionist Republican Party (Brito Camacho)", "ideology": "Moderate Republicanism", "initialSupport": 15, "warPosition": "Skeptical of intervention, respects British will", "source": "1914-1918-Online: Portugal" }
+    ],
+    "resources": { "manpower": 200000, "industry": 15, "treasury": 120, "stability": 30 }
+  },
+  "SWE": {
+    "name": "Kingdom of Sweden",
+    "regime": "Parliamentary Monarchy (democratization in progress)",
+    "headOfState": "King Gustav V",
+    "factions": [
+      { "id": "social_democrats_swe", "name": "Social Democratic Party", "ideology": "Reformist socialism", "initialSupport": 28, "warPosition": "Neutrality, anti-war", "source": "1914-1918-Online: Sweden" },
+      { "id": "liberals_swe", "name": "Liberal Party (Frisinnade)", "ideology": "Liberalism", "initialSupport": 22, "warPosition": "Neutrality", "source": "1914-1918-Online: Sweden" },
+      { "id": "conservatives_swe", "name": "Conservative Party", "ideology": "Conservatism", "initialSupport": 22, "warPosition": "Pro-German neutrality", "source": "1914-1918-Online: Sweden" },
+      { "id": "national_defense_league", "name": "National Defense League", "ideology": "Nationalism, militarism", "initialSupport": 15, "warPosition": "Pro-German, interventionist", "source": "1914-1918-Online: Sweden" }
+    ],
+    "resources": { "manpower": 500000, "industry": 40, "treasury": 400, "stability": 60 }
+  },
+  "NOR": {
+    "name": "Kingdom of Norway",
+    "regime": "Parliamentary Monarchy (independent since 1905)",
+    "headOfState": "King Haakon VII",
+    "factions": [
+      { "id": "liberals_nor", "name": "Liberal Party (Venstre)", "ideology": "Liberalism", "initialSupport": 32, "warPosition": "Neutrality", "source": "1914-1918-Online: Norway" },
+      { "id": "conservatives_nor", "name": "Conservative Party (Høyre)", "ideology": "Conservatism", "initialSupport": 22, "warPosition": "Neutrality, pro-British sympathies", "source": "1914-1918-Online: Norway" },
+      { "id": "labour_nor", "name": "Labour Party", "ideology": "Socialism", "initialSupport": 18, "warPosition": "Neutrality, anti-war", "source": "1914-1918-Online: Norway" },
+      { "id": "peasant_party_nor", "name": "Peasant Party (Bondepartiet)", "ideology": "Agrarianism", "initialSupport": 12, "warPosition": "Strict neutrality, isolation", "source": "1914-1918-Online: Norway" }
+    ],
+    "resources": { "manpower": 250000, "industry": 25, "treasury": 250, "stability": 65 }
+  },
+  "DNK": {
+    "name": "Kingdom of Denmark",
+    "regime": "Parliamentary Monarchy",
+    "headOfState": "King Christian X",
+    "factions": [
+      { "id": "venstre_dnk", "name": "Venstre (Liberals)", "ideology": "Agrarian liberalism", "initialSupport": 32, "warPosition": "Neutrality", "source": "1914-1918-Online: Denmark" },
+      { "id": "social_democrats_dnk", "name": "Social Democracy", "ideology": "Reformist socialism", "initialSupport": 28, "warPosition": "Neutrality, anti-war", "source": "1914-1918-Online: Denmark" },
+      { "id": "conservatives_dnk", "name": "Conservative Party (Højre)", "ideology": "Conservatism", "initialSupport": 18, "warPosition": "Neutrality, armed defense", "source": "1914-1918-Online: Denmark" },
+      { "id": "social_liberals_dnk", "name": "Social Liberal Party (Radikale Venstre)", "ideology": "Social liberalism, pacifism", "initialSupport": 15, "warPosition": "Neutrality, disarmament", "source": "1914-1918-Online: Denmark" }
+    ],
+    "resources": { "manpower": 180000, "industry": 20, "treasury": 200, "stability": 70 }
+  }
+}
